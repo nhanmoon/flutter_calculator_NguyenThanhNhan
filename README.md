@@ -41,4 +41,4 @@ Hỗ trợ số thập phân
 Quy ước giới hạn độ dài số
 
 Xử lý chia cho 0
-![UI Example](attachment:/mnt/data/Screenshot 2025-11-17 103144.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8e57bade-de1c-4039-8848-a7db71382e84" />

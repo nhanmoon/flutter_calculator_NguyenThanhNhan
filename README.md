@@ -1,9 +1,9 @@
-🧮 Flutter Lab 2 – Simple Mobile Calculator
+Flutter Lab 2 – Simple Mobile Calculator
 
 Một ứng dụng máy tính đơn giản được xây dựng bằng Flutter, dựa trên thiết kế Figma được cung cấp trong bài Lab. Ứng dụng giúp bạn thực hành bố cục Flutter, quản lý trạng thái, xử lý phép toán và xây dựng giao diện tương tác.
 
 
-📌 Giới thiệu
+ Giới thiệu
 
 Dự án này là bài thực hành chương 2 (Lab 2) nhằm giúp sinh viên:
 
@@ -20,7 +20,7 @@ Kiểm soát lỗi và các trường hợp đặc biệt
 Viết mã sạch, có tổ chức và dễ bảo trì
 
 
-🎨 Thiết kế (Figma)
+Thiết kế (Figma)
 
 Design link:
 (giữ nguyên link từ tài liệu nếu bạn muốn)
@@ -41,7 +41,7 @@ Button spacing: 16px
 
 Button border radius: 12px
 
-🛠️ Tính năng của ứng dụng
+Tính năng của ứng dụng
 
 Hiển thị phép toán và kết quả theo thời gian thực
 
@@ -68,7 +68,7 @@ CE – Xóa 1 ký tự cuối
 . – Thêm dấu thập phân
 
 
-🔢 Các biến trạng thái chính
+Các biến trạng thái chính
 Biến	Mô tả
 _display	Giá trị hiển thị hiện tại
 _equation	Chuỗi phép toán đầy đủ
@@ -78,7 +78,7 @@ _operation	Phép toán hiện tại
 
 
 
-⚠️ Các trường hợp đặc biệt cần xử lý
+Các trường hợp đặc biệt cần xử lý
 
 Chia cho 0
 

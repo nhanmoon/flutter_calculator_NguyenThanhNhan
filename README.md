@@ -1,4 +1,4 @@
-# lapp2
+# lab2
 
 A new Flutter project.
 

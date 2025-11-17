@@ -2,6 +2,7 @@
 
 Một ứng dụng máy tính đơn giản được xây dựng bằng Flutter, dựa trên thiết kế Figma được cung cấp trong bài Lab. Ứng dụng giúp bạn thực hành bố cục Flutter, quản lý trạng thái, xử lý phép toán và xây dựng giao diện tương tác.
 
+
 📌 Giới thiệu
 
 Dự án này là bài thực hành chương 2 (Lab 2) nhằm giúp sinh viên:
@@ -17,6 +18,7 @@ Xây dựng UI theo Figma
 Kiểm soát lỗi và các trường hợp đặc biệt
 
 Viết mã sạch, có tổ chức và dễ bảo trì
+
 
 🎨 Thiết kế (Figma)
 
@@ -65,6 +67,7 @@ CE – Xóa 1 ký tự cuối
 
 . – Thêm dấu thập phân
 
+
 🔢 Các biến trạng thái chính
 Biến	Mô tả
 _display	Giá trị hiển thị hiện tại
@@ -72,6 +75,9 @@ _equation	Chuỗi phép toán đầy đủ
 _num1	Toán hạng thứ nhất
 _num2	Toán hạng thứ hai
 _operation	Phép toán hiện tại
+
+
+
 ⚠️ Các trường hợp đặc biệt cần xử lý
 
 Chia cho 0

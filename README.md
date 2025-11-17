@@ -1,91 +1,44 @@
-Flutter Lab 2 – Simple Mobile Calculator
+- Simple Mobile Calculator – Flutter
 
-Một ứng dụng máy tính đơn giản được xây dựng bằng Flutter, dựa trên thiết kế Figma được cung cấp trong bài Lab. Ứng dụng giúp bạn thực hành bố cục Flutter, quản lý trạng thái, xử lý phép toán và xây dựng giao diện tương tác.
+Sinh viên thực hiện: Nguyễn Thành Nhân
+MSSV: 2224801030136
+Mục tiêu dự án
 
+- Ứng dụng giúp sinh viên rèn luyện:
 
- Giới thiệu
+Tư duy bố cục giao diện Flutter
 
-Dự án này là bài thực hành chương 2 (Lab 2) nhằm giúp sinh viên:
+Sử dụng và quản lý trạng thái trong ứng dụng
 
-Hiểu cách tổ chức widget và bố cục trong Flutter
+Xử lý phép toán cơ bản
 
-Quản lý trạng thái cho ứng dụng tương tác
+Thiết kế UI theo Figma (pixel-perfect)
 
-Xử lý các phép toán số học cơ bản
+Xử lý lỗi và các tình huống đặc biệt
+Chức năng chính của ứng dụng
+- Các phép tính cơ bản
 
-Xây dựng UI theo Figma
+Cộng
 
-Kiểm soát lỗi và các trường hợp đặc biệt
+Trừ
 
-Viết mã sạch, có tổ chức và dễ bảo trì
+Nhân
 
+Chia
 
-Thiết kế (Figma)
+- Các chức năng bổ sung
 
-Design link:
-(giữ nguyên link từ tài liệu nếu bạn muốn)
+C (Clear): Xóa toàn bộ
 
-Thông số UI theo Figma:
+CE (Clear End): Xóa một ký tự cuối
 
-Primary color: #2D3142
++/- chuyển dấu
 
-Secondary: #4F5D75
+% phần trăm
 
-Accent: #EF8354
+Hỗ trợ số thập phân
 
-Font: Roboto
+Quy ước giới hạn độ dài số
 
-Padding: 20px
-
-Button spacing: 16px
-
-Button border radius: 12px
-
-Tính năng của ứng dụng
-
-Hiển thị phép toán và kết quả theo thời gian thực
-
-Các phép tính hỗ trợ:
-
-Cộng (+)
-
-Trừ (−)
-
-Nhân (×)
-
-Chia (÷)
-
-Chức năng:
-
-C – Xóa toàn bộ
-
-CE – Xóa 1 ký tự cuối
-
-± – Đổi dấu
-
-% – Tính phần trăm
-
-. – Thêm dấu thập phân
-
-
-Các biến trạng thái chính
-Biến	Mô tả
-_display	Giá trị hiển thị hiện tại
-_equation	Chuỗi phép toán đầy đủ
-_num1	Toán hạng thứ nhất
-_num2	Toán hạng thứ hai
-_operation	Phép toán hiện tại
-
-
-
-Các trường hợp đặc biệt cần xử lý
-
-Chia cho 0
-
-Nhập nhiều dấu .
-
-Nhấn phép toán liên tiếp
-
-Nhấn dấu = khi phép toán chưa hoàn chỉnh
-
-Số quá dài → giới hạn ký tự hoặc scroll
+Xử lý chia cho 0
+![UI Example](attachment:/mnt/data/Screenshot 2025-11-17 103144.png)
